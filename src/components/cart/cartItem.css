@@ -1,0 +1,29 @@
+.cart_item{
+    height: 100%;
+    width: 100px;
+    object-fit: cover;
+    display: inline-block;
+gap: 4px;
+   background-color: gray;
+}
+img{
+    width: 100px;
+height: 10%;
+}
+
+
+.cart_item:nth-child(1){
+    border-top: 1px solid gray;
+}
+
+.cartitem_button{
+    margin-left: auto;
+    padding: 4px 8px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.cartitem_button:focus, .cartitem_button:active{
+    outline: none;
+}
